@@ -8,8 +8,6 @@ before do
 end
 
 get '/' do
-  puts "User: " + @user
-  puts "Grant: " + @grant
   'rspec-api-rest-example'
 end
 
